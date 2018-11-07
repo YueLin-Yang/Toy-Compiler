@@ -1,0 +1,20 @@
+main( )
+{
+	int n, nfact, k;
+	print("Please enter n: ");
+	read(n);
+	if ( n >= 0 )
+	{
+		k = n; 
+		nfact = 1;
+		while (k > 0)
+		{ 
+			nfact = nfact 
+			 * k;
+			k = k -1;
+		}
+	}
+	print(n);
+	print(" != ");
+	println(nfact);
+}

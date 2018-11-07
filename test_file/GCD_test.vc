@@ -1,0 +1,24 @@
+main( ) 
+{
+	int A, B, 
+			   K;
+	print( "Please enter A: " ); 
+	read(A);
+	print( "Please enter B: " ); 
+	read(B);
+	if (A < B) 
+	{ 
+		K = A; 
+		A = B; 
+		B = K; 
+	}
+	K = A % B;
+	while( K != 0 )
+	{
+		A = B; B 
+		  = K; 
+		K = A % B; 
+	}
+	print( "GCD=" ); 
+	println( B );
+}

@@ -1,0 +1,24 @@
+main( ) 
+{
+	int n, Fib; 
+	int F0, F1;
+	print( "Please enter n: " ); 
+	read(n);
+	print( "Fibonacci No. of " ); 
+	print( n ); 
+	print( '=' ); 
+	if (n < 2) 
+		Fib = n;
+	else 
+	{ 
+		F0 = 0; F1 = 1;
+		while( n > 1 ) 
+		{ 
+			n = n - 1;
+			Fib 
+			  = F0 + F1; 
+			F0 = F1; F1 = Fib;
+		}
+	}
+	println( Fib );
+}

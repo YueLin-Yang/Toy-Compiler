@@ -1,0 +1,14 @@
+main( )
+{
+	bool a;
+	const x = TRUE;
+	const y = x;
+	a = y;
+	if(a)
+		println( "is true" );
+	else
+		println( "is flase" );
+	print( '.' );
+	println( '!' );
+	print("print");
+}
